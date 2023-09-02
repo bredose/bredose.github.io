@@ -66,27 +66,11 @@
                     I am also undertaking an internship at Visagio Australia, where I am focusing on technical project in data analytics and simulation modelling. 
                     I have a keen interest in finance and other related analytical problems, and have skills in Python, SQL, Tableau and AnyLogic.
                     I have also been awarded prizes and scholarhsips during my studies at the University of Sydney, including the Farrand Science Scholarship, the Plumian Scholarship, the Citadel Prize for First Year in Mathematics and Statistics and the USA Foundation Prize in Statistics.</p>
-                    <button class="btn btn-outline-danger" id="downloadButton"><i class="icon-down-circled2"></i>Download My CV</button>
-
-                    <script>
-                        // Get a reference to the download button
-                        var downloadButton = document.getElementById('downloadButton');
-                
-                        // Define the URL of your CV file
-                        var cvUrl = 'https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/harrybreden/harrybreden.github.io/blob/main/assets/Harry%20Breden%20CV.pdf'; // Replace with your CV file URL
-                
-                        // Add a click event listener to the button
-                        downloadButton.addEventListener('click', function () {
-                            // Create an anchor element for the download
-                            var downloadLink = document.createElement('a');
-                            downloadLink.href = cvUrl;
-                            downloadLink.target = '_blank'; // Open the link in a new tab (optional)
-                            downloadLink.download = 'Harry Breden CV.pdf'; // Specify the file name
-                
-                            // Trigger a click event on the anchor element
-                            downloadLink.click();
-                        });
-                    </script>
+                    <a href="/assets/Harry%20Breden%20CV.pdf" download="Harry Breden CV.pdf">
+                        <button class="btn btn-outline-danger">
+                          <i class="icon-down-circled2"></i> Download My CV
+                        </button>
+                      </a>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
