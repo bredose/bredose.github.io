@@ -162,13 +162,13 @@ sup {
 }
 
 a {
-  color: #F85C70;
+  color: #01bb9f;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #f51330;
+  color: #008b76;
   text-decoration: none;
 }
 
@@ -516,7 +516,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #FC8BC0;
+  color: #46cab7;
   word-break: break-word;
 }
 
@@ -2779,8 +2779,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #f63750;
-  border-color: #f62b45;
+  background-color: #00a189;
+  border-color: #00a189;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2949,8 +2949,8 @@ fieldset:disabled a.btn {
 
 .btn-danger:hover {
   color: #fff;
-  background-color: #f63750;
-  border-color: #f62b45;
+  background-color: #00a189;
+  border-color: #00a189;
 }
 
 .btn-danger:focus, .btn-danger.focus {
